@@ -82,7 +82,9 @@ builder.Services.AddCors(options =>
                 "http://localhost:4200",
                 "https://localhost:4200",
                 "http://localhost:3000",
-                "http://10.243.227.140:5173")
+                "http://10.243.227.140:5173",
+                "https://nexus-frontend-zeta.vercel.app"
+            )
               .AllowAnyMethod()
               .AllowAnyHeader()
               .AllowCredentials();
